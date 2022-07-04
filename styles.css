@@ -1,0 +1,151 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+@font-face {
+     font-family: 'Arima', cursive;
+     src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap" rel="stylesheet">)
+}
+
+body {
+    text-align: center;
+    font-family: 'Arima';
+    color: #840032;
+    background: #eec170
+}
+
+h1, h2, h3, h4, P {
+    text-shadow: 0 0 1px #02040f;
+}
+
+.header {
+    position: absolute;
+    width: 800px;
+    height: 343px;
+    left: 0px;
+    top: 0px;
+    background-image: url(images/cleveland.jpeg);
+    background-size: cover; 
+}
+    
+ #visit {
+    font-weight: bold;
+    color: #450920;
+    height: 80px;
+    width: 201px;
+    margin-left: 270px;
+    margin-top: 60px;
+    border-radius: 5px;
+    background: #c7efcf;
+    padding: 5px;
+
+}
+
+#enjoy {
+    font-weight: bold;
+    color: #450920;
+    height: 52px;
+    width: 412px;
+    margin-left: 160px;
+    margin-top: 55px;
+    border-radius: 10px;
+    background: #8ecae6;
+    padding: 5px
+
+}
+    
+ .activities-section {
+    position: absolute;
+    height: 343px;
+    width: 720px;
+    left: 0px;
+    top: 343px;
+    border-radius: 0px;
+
+
+    
+}
+
+.picnic {
+    position: absolute;
+    height: 226px;
+    width: 198px;
+    left: 34px;
+    top: 59px;
+    border-radius: 0px;
+
+;
+
+}
+
+
+.movies {
+    position: absolute;
+    height: 227px;
+    width: 198px;
+    margin-left: 265px;
+    margin-top: 58px;
+    border-radius: 0px;
+
+
+}
+
+.sports {
+    position: absolute;
+    height: 227px;
+    width: 198px;
+    margin-left: 488px;
+    margin-top: 90px;
+    border-radius: 0px;
+
+
+}
+
+
+.guide-section {
+    position: absolute;
+    height: 394px;
+    width: 720px;
+    margin-left: 0px;
+    margin-top: 700px;
+    border-radius: 0px;
+}
+
+.guide {
+    height: 294px;
+    width: 400px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    text-align: center;
+    background: #eef5db;
+    border-bottom: 4px solid #c7efcf;
+    
+}
+
+.quote { 
+    padding: 10px;
+}
+
+.me {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.madison, .playhouse, .beach {
+    border-radius: 50%;
+    padding: 2px;
+    width: 150px;
+    
+}
+
